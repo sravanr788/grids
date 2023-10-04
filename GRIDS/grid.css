@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black; */
+  color: white;
+}
+
+.container {
+  display: grid;
+  border: 2px solid green;
+  background-color: rgb(39, 172, 238);
+
+  /* gap  */
+  gap: 10px;
+  /* row-gap: 30px;
+  column-gap: 20px; */
+
+  /*--------to make columns---------------  */
+  grid-template-columns: 100px 200px;
+  /* grid-template-columns: 20% 30% 50%; */
+  /* grid-template-columns: 1fr 1fr 1fr ; */
+  /* grid-template-columns: repeat(3,100px) ; */
+  /* grid-template-columns: repeat(3,1fr) ; <---- */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* grid-template-columns: 200px auto ; */
+
+  /*--------to make rows---------------  */
+  /* grid-template-rows: 100px 200px; */
+  /* grid-template-rows: 20% 30% 50%; */
+  /* grid-template-rows: 1fr 1fr 1fr ; */
+  /* grid-template-rows: repeat(3,100px) ; */
+  /* grid-template-rows: repeat(3,1fr) ; */
+  /* grid-template-rows: 200px auto ; */
+
+  /* to give height to all rows  */
+  /* grid-auto-rows: 500px; */
+
+  /* justify-content */
+  /* justify-content: center; */
+
+  /* align-content */
+  /* align-content: stretch; */
+  height: 400px;
+
+  /* align-items */
+  /* align-items: start; */
+}
+
+.box {
+  background-color: red;
+  border: 2px solid rgb(15, 7, 4);
+}
+
+#b-2{
+    background-color: chocolate;
+
+    /* ---------justify self ------- */
+    /* justify-self: end; */
+
+    /* ---------align self ------- */
+    /* align-self: end; */
+
+    grid
+}
